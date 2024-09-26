@@ -25,10 +25,10 @@ export default function Menu() {
   ];
   return (
     <>
-      <div className="my-16">
+      <div className="my-5">
         <MenuItem pic={LOGO} />
       </div>
-      <div className=" flex text-5xl font-bold justify-center w-full my-5">
+      <div className=" flex text-2xl font-bold justify-center w-full  p-5">
         <p>Welcome to Zodiac Cafe & Bar </p>
       </div>
 
