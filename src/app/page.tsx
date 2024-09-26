@@ -1,5 +1,5 @@
 import Bakerymenu from '@/components/bakery-menu';
-import KitchenMenu from '@/components/kitchen-menu';
+
 import Image from 'next/image';
 
 export default function Home() {
