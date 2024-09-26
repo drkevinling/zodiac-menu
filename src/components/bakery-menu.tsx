@@ -1,9 +1,10 @@
+import { FRESH_JUICE } from '@/constants/menu';
 import Image from 'next/image';
 
 const Bakerymenu = () => {
   return (
     <Image
-      src="https://mcvqsddwagugbgswsepk.supabase.co/storage/v1/object/public/zodiac-menu/zodiac-menu/bakery-menu.jpeg"
+      src= {FRESH_JUICE}
       alt="bakery menu"
       width={1600}
       height={1600}
