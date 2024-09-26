@@ -1,38 +1,23 @@
+import Bakerymenu from '@/components/bakery-menu';
+import KitchenMenu from '@/components/kitchen-menu';
 import Image from 'next/image';
 
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center ">
-        
-        <div className="px-20 m-10">
-          <div className=" w-full h-auto">
-            <Image
-              className="dark:invert"
-              src="https://mcvqsddwagugbgswsepk.supabase.co/storage/v1/object/public/zodiac-menu/zodiac-menu/bakery-menu.jpeg"
-              alt="bakery menu"
-              fill
-              style={{ objectFit: 'contain' }}
-            />
-          </div>
-        </div>
-      </main>
+      <div className="flex flex-col gap-8 overflow-y-auto ">
+        <Bakerymenu />
+        {/* <KitchenMenu /> */}
+      </div>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
+        <Image
+          aria-hidden
+          src="https://nextjs.org/icons/file.svg"
+          alt="File icon"
+          width={16}
+          height={16}
+        />
+        Learn
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
           href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
