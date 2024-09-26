@@ -15,4 +15,23 @@ const FRESH_JUICE =
 const BAKERY =
   'https://mcvqsddwagugbgswsepk.supabase.co/storage/v1/object/public/zodiac-menu/zodiac-menu/bakery-menu.jpeg';
 
-export { KITCHEN_1, KITCHEN_2, COCKTAIL_1, COCKTAIL_2, FRESH_JUICE, BAKERY };
+const COFFEE_1 =
+  'https://mcvqsddwagugbgswsepk.supabase.co/storage/v1/object/public/zodiac-menu/zodiac-menu/drink_1.jpeg?t=2024-09-26T10%3A13%3A37.663Z';
+
+const COFFEE_2 =
+  'https://mcvqsddwagugbgswsepk.supabase.co/storage/v1/object/public/zodiac-menu/zodiac-menu/drink_2.jpeg?t=2024-09-26T10%3A14%3A09.965Z';
+
+const LOGO =
+  'https://mcvqsddwagugbgswsepk.supabase.co/storage/v1/object/public/zodiac-menu/zodiac-menu/logo.jpg?t=2024-09-26T10%3A17%3A42.408Z';
+
+export {
+  LOGO,
+  FRESH_JUICE,
+  KITCHEN_1,
+  KITCHEN_2,
+  COCKTAIL_1,
+  COCKTAIL_2,
+  BAKERY,
+  COFFEE_1,
+  COFFEE_2,
+};
