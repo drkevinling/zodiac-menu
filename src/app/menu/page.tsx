@@ -10,10 +10,12 @@ import {
   COFFEE_1,
   COFFEE_2,
   LOGO,
+  ADDRESS,
 } from '@/constants/menu';
 
 export default function Menu() {
   const ListOfMenuPics = [
+    ADDRESS,
     COFFEE_1,
     COFFEE_2,
     FRESH_JUICE,
