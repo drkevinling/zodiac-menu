@@ -24,8 +24,12 @@ const COFFEE_2 =
 const LOGO =
   'https://mcvqsddwagugbgswsepk.supabase.co/storage/v1/object/public/zodiac-menu/zodiac-menu/logo.jpg?t=2024-09-26T10%3A17%3A42.408Z';
 
+const ADDRESS =
+  'https://mcvqsddwagugbgswsepk.supabase.co/storage/v1/object/public/zodiac-menu/zodiac-menu/address.jpeg?t=2024-10-14T14%3A23%3A39.839Z';
+
 export {
   LOGO,
+  ADDRESS,
   FRESH_JUICE,
   KITCHEN_1,
   KITCHEN_2,
