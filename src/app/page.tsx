@@ -1,5 +1,6 @@
 'use client';
 import MenuItem from '@/components/menu';
+import { SocialLinks } from '@/components/social-links';
 import {
   KITCHEN_1,
   KITCHEN_2,
@@ -51,7 +52,7 @@ export default function Home() {
       <div className=" flex text-2xl font-bold justify-center w-full  p-5">
         <p>Welcome to Zodiac Coffee Lounge</p>
       </div>
-
+      <SocialLinks />
       <div className="h-screen flex flex-col">
         {ListOfMenuPics.map((pic) => (
           <MenuItem key={pic} pic={pic} />
