@@ -12,6 +12,7 @@ const MenuItem: React.FC<MenuItemProps> = ({ pic }) => {
         alt="bakery menu"
         width={1600}
         height={1600}
+        unoptimized={true}
         style={{ objectFit: 'contain' }}
       />
     </div>

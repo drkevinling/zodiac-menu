@@ -2,6 +2,7 @@
 const nextConfig = {
   images: {
     domains: ['mcvqsddwagugbgswsepk.supabase.co'],
+    unoptimized: true,
   },
 };
 
