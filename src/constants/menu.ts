@@ -4,10 +4,10 @@ const KITCHEN_2 =
   'https://mcvqsddwagugbgswsepk.supabase.co/storage/v1/object/public/zodiac-menu/zodiac-menu/kitchen--2.jpeg';
 
 const COCKTAIL_2_1 =
-  'https://mcvqsddwagugbgswsepk.supabase.co/storage/v1/object/public/zodiac-menu/zodiac-menu/cocktail-1.jpeg';
+  'https://mcvqsddwagugbgswsepk.supabase.co/storage/v1/object/public/zodiac-menu/zodiac-menu/cocktail-2-1.jpeg';
 
 const COCKTAIL_2_2 =
-  'https://mcvqsddwagugbgswsepk.supabase.co/storage/v1/object/public/zodiac-menu/zodiac-menu/cocktail-2.jpeg';
+  'https://mcvqsddwagugbgswsepk.supabase.co/storage/v1/object/public/zodiac-menu/zodiac-menu/cocktail-2-2.jpeg';
 
 const FRESH_JUICE =
   'https://mcvqsddwagugbgswsepk.supabase.co/storage/v1/object/public/zodiac-menu/zodiac-menu/fresh-fruit-juice.jpeg';
