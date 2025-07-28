@@ -23,6 +23,13 @@ import {
   ZODIAC_BLISS,
 } from '@/constants/menu';
 
+/**
+ * By exporting `dynamic = 'force-dynamic'`, we are forcing this page to be
+ * rendered on-demand for every request. This will ensure that the page is
+ * not cached and is always fresh.
+ */
+export const dynamic = 'force-dynamic';
+
 export default function Home() {
   const ListOfMenuPics = [
     ADDRESS,
