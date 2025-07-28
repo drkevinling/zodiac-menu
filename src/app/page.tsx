@@ -4,8 +4,8 @@ import { SocialLinks } from '@/components/social-links';
 import {
   KITCHEN_1,
   KITCHEN_2,
-  COCKTAIL_1,
-  COCKTAIL_2,
+  COCKTAIL_2_1,
+  COCKTAIL_2_2,
   FRESH_JUICE,
   BAKERY,
   COFFEE_1,
@@ -28,7 +28,7 @@ import {
  * rendered on-demand for every request. This will ensure that the page is
  * not cached and is always fresh.
  */
-export const dynamic = 'force-dynamic';
+
 
 export default function Home() {
   const ListOfMenuPics = [
@@ -48,8 +48,8 @@ export default function Home() {
     TOM_YUM_NOODLE,
     KITCHEN_1,
     KITCHEN_2,
-    COCKTAIL_1,
-    COCKTAIL_2,
+    COCKTAIL_2_1,
+    COCKTAIL_2_2,
   ];
   return (
     <>
