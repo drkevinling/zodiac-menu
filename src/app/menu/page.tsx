@@ -3,8 +3,8 @@ import MenuItem from '@/components/menu';
 import {
   KITCHEN_1,
   KITCHEN_2,
-  COCKTAIL_1,
-  COCKTAIL_2,
+  COCKTAIL_2_1,
+  COCKTAIL_2_2,
   FRESH_JUICE,
   BAKERY,
   COFFEE_1,
@@ -40,8 +40,8 @@ export default function Menu() {
     TOM_YUM_NOODLE,
     KITCHEN_1,
     KITCHEN_2,
-    COCKTAIL_1,
-    COCKTAIL_2,
+    COCKTAIL_2_1,
+    COCKTAIL_2_2,
   ];
   return (
     <>
