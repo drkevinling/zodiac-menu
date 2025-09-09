@@ -20,6 +20,7 @@ import {
   TOM_YUM_NOODLE,
   YOGURT,
   ZODIAC_BLISS,
+  KACHIN_AUTHENTICS
 } from '@/constants/menu';
 
 export default function Menu() {
@@ -35,6 +36,7 @@ export default function Menu() {
     BAKERY,
     PANDAN_CAKE,
     CHEESE_CAKE,
+    KACHIN_AUTHENTICS,
     ASIAN_CUISINE,
     KOREAN_CUISINE,
     TOM_YUM_NOODLE,
@@ -42,6 +44,7 @@ export default function Menu() {
     KITCHEN_2,
     COCKTAIL_2_1,
     COCKTAIL_2_2,
+
   ];
   return (
     <>

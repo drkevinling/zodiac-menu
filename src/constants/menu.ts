@@ -54,6 +54,9 @@ const YOGURT =
 const ZODIAC_BLISS =
   'https://fhciiwrknsztdrfyodpz.supabase.co/storage/v1/object/public/zodiac-menu/4.zodiac-bliss.jpeg';
 
+const KACHIN_AUTHENTICS =
+  'https://fhciiwrknsztdrfyodpz.supabase.co/storage/v1/object/public/zodiac-menu/18.kachin-authentics.jpeg';
+
 export {
   LOGO,
   ADDRESS,
@@ -74,4 +77,5 @@ export {
   TOM_YUM_NOODLE,
   YOGURT,
   ZODIAC_BLISS,
+  KACHIN_AUTHENTICS,
 };
